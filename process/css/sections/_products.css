@@ -11,13 +11,14 @@ $item-width: 100%;
   }
 
   .product-list {
-    margin: 0;
+    margin: 0 30px;
     padding: 0;
     list-style: none;
     display: flex;
     flex-flow: row wrap;
 
     .product-item {
+
 
                border-radius: 5%;
               position: relative;
@@ -56,7 +57,7 @@ $item-width: 100%;
               width: calc($item-width / 4);
             }
               @media  $large {
-              width: calc($item-width / 4 );
+              width: calc($item-width / 6 );
             }
 
 
